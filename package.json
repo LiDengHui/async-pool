@@ -1,0 +1,33 @@
+{
+  "name": "@dhlx/async-pool",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "type": "module",
+  "types": "/dist",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiDengHui/delay.git"
+  },
+  "keywords": [
+    "promise",
+    "resolve",
+    "delay"
+  ],
+  "private": false,
+  "author": "lidenghui <3379489032@qq.com>",
+  "license": "MIT",
+  "description": "delay 函数是一个用于实现延迟功能的实用工具函数。它接受一个以毫秒为单位的时间参数，并返回一个 Promise，在指定的时间过后成功解决",
+  "devDependencies": {
+    "@dhlx/delay": "^0.0.1",
+    "ava": "^6.1.3",
+    "typescript": "^5.6.2"
+  }
+}
