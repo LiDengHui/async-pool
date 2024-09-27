@@ -1,6 +1,6 @@
 {
   "name": "@dhlx/async-pool",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "./dist/index.js",
   "type": "module",
   "exports": {
@@ -8,9 +8,8 @@
     "default": "./dist/index.js"
   },
   "scripts": {
-    "tsc": "tsc",
-    "test": "ava",
-    "prepublish": "npm run tsc && npm run test"
+    "build": "tsc",
+    "test": "ava"
   },
   "repository": {
     "type": "git",
